@@ -52,7 +52,7 @@ namespace DataBinding.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DataBinding;component/pages/doctormainpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DataBinding;V1.0.0.0;component/pages/doctormainpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\DoctorMainPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

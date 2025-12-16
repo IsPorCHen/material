@@ -1,52 +1,23 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    
-    <!-- Светлая тема - цвета из таблицы PDF -->
-    
-    <!-- Фон окна приложения -->
+
     <SolidColorBrush x:Key="AppBackground" Color="#F5FAFB"/>
-    
-    <!-- Основные панели, карточки -->
     <SolidColorBrush x:Key="PanelBackground" Color="#FFFFFF"/>
-    
-    <!-- Заголовки и подписи -->
     <SolidColorBrush x:Key="HeaderForeground" Color="#2E3B4E"/>
-    
-    <!-- Основной текст -->
     <SolidColorBrush x:Key="AppForeground" Color="#444B54"/>
-    
-    <!-- Вторичный текст / подсказки -->
     <SolidColorBrush x:Key="SecondaryForeground" Color="#6E7A89"/>
-    
-    <!-- Основные кнопки (действия) -->
     <SolidColorBrush x:Key="PrimaryButtonBackground" Color="#33B8B1"/>
     <SolidColorBrush x:Key="PrimaryButtonHover" Color="#2A9E98"/>
     <SolidColorBrush x:Key="PrimaryButtonPressed" Color="#21847F"/>
-    
-    <!-- Опасные кнопки (удалить, сброс) -->
     <SolidColorBrush x:Key="DangerButtonBackground" Color="#E65A4F"/>
     <SolidColorBrush x:Key="DangerButtonHover" Color="#D44A40"/>
     <SolidColorBrush x:Key="DangerButtonPressed" Color="#C23A31"/>
-    
-    <!-- Поля ввода (фон) -->
     <SolidColorBrush x:Key="TextBoxBackground" Color="#F0F6F8"/>
-    
-    <!-- Границы полей ввода -->
     <SolidColorBrush x:Key="TextBoxBorder" Color="#6E7A89"/>
-    
-    <!-- Акцент (выделение, активный элемент) -->
     <SolidColorBrush x:Key="AccentColor" Color="#3A9AD9"/>
-    
-    <!-- Ошибки валидации (фон) -->
     <SolidColorBrush x:Key="ValidationErrorBackground" Color="#FFE8E8"/>
-    
-    <!-- Ошибки валидации (граница) -->
     <SolidColorBrush x:Key="ValidationErrorBorder" Color="#D93025"/>
-    
-    <!-- Ошибки валидации (текст) -->
     <SolidColorBrush x:Key="ValidationErrorForeground" Color="#D93025"/>
-    
-    <!-- Дополнительные элементы -->
     <SolidColorBrush x:Key="ButtonForeground" Color="#FFFFFF"/>
     <SolidColorBrush x:Key="GroupBoxBorder" Color="#6E7A89"/>
     <SolidColorBrush x:Key="ListViewBorder" Color="#6E7A89"/>

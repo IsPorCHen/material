@@ -95,14 +95,8 @@ namespace DataBinding.Pages
             _currentPatient.AppointmentStories.Add(newAppointment);
 
             _currentPatient.NotifyAppointmentChanged();
-            
-            SavePatientToJson(_currentPatient);
 
-            var index = _patients.IndexOf(_currentPatient);
-            if (index >= 0)
-            {
-                _patients[index] = _currentPatient;
-            }
+            SavePatientToJson(_currentPatient);
 
             MessageBox.Show("Прием сохранен!");
 

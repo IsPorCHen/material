@@ -9,7 +9,9 @@
         <TextBlock Text="Вход в систему" Style="{StaticResource PageTitleTextBlock}"/>
         
         <TextBox x:Name="DoctorIdTextBox" 
-                 materialDesign:HintAssist.Hint="ID доктора">
+                 materialDesign:HintAssist.Hint="ID доктора"
+                 materialDesign:TextFieldAssist.HasClearButton="False"
+                 Validation.ErrorTemplate="{x:Null}">
             <TextBox.Text>
                 <Binding Path="LoginDoctorId" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
                     <Binding.ValidationRules>
@@ -27,7 +29,8 @@
         </ItemsControl>
         
         <PasswordBox x:Name="loginPassword" 
-                     materialDesign:HintAssist.Hint="Пароль"/>
+                     materialDesign:HintAssist.Hint="Пароль"
+                     Validation.ErrorTemplate="{x:Null}"/>
         
         <WrapPanel Style="{StaticResource HorizontalWrapPanel}">
             <Button Content="Войти" Style="{StaticResource AddButton}" Click="LoginButton_Click"/>

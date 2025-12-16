@@ -19,7 +19,9 @@
         </StackPanel>
 
         <TextBox x:Name="LastNameTextBox" 
-                 materialDesign:HintAssist.Hint="Фамилия *">
+                 materialDesign:HintAssist.Hint="Фамилия *"
+                 materialDesign:TextFieldAssist.HasClearButton="False"
+                 Validation.ErrorTemplate="{x:Null}">
             <TextBox.Text>
                 <Binding Path="CurrentPatient.LastName" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
                     <Binding.ValidationRules>
@@ -37,7 +39,9 @@
         </ItemsControl>
 
         <TextBox x:Name="NameTextBox" 
-                 materialDesign:HintAssist.Hint="Имя *">
+                 materialDesign:HintAssist.Hint="Имя *"
+                 materialDesign:TextFieldAssist.HasClearButton="False"
+                 Validation.ErrorTemplate="{x:Null}">
             <TextBox.Text>
                 <Binding Path="CurrentPatient.Name" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
                     <Binding.ValidationRules>
@@ -55,7 +59,9 @@
         </ItemsControl>
 
         <TextBox x:Name="MiddleNameTextBox" 
-                 materialDesign:HintAssist.Hint="Отчество *">
+                 materialDesign:HintAssist.Hint="Отчество *"
+                 materialDesign:TextFieldAssist.HasClearButton="False"
+                 Validation.ErrorTemplate="{x:Null}">
             <TextBox.Text>
                 <Binding Path="CurrentPatient.MiddleName" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
                     <Binding.ValidationRules>
@@ -73,7 +79,9 @@
         </ItemsControl>
 
         <TextBox x:Name="BirthDateTextBox" 
-                 materialDesign:HintAssist.Hint="Дата рождения * (ДД.ММ.ГГГГ)">
+                 materialDesign:HintAssist.Hint="Дата рождения * (ДД.ММ.ГГГГ)"
+                 materialDesign:TextFieldAssist.HasClearButton="False"
+                 Validation.ErrorTemplate="{x:Null}">
             <TextBox.Text>
                 <Binding Path="CurrentPatient.Birthday" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
                     <Binding.ValidationRules>
@@ -92,7 +100,9 @@
         </ItemsControl>
 
         <TextBox x:Name="PhoneTextBox" 
-                 materialDesign:HintAssist.Hint="Контактный телефон">
+                 materialDesign:HintAssist.Hint="Контактный телефон"
+                 materialDesign:TextFieldAssist.HasClearButton="False"
+                 Validation.ErrorTemplate="{x:Null}">
             <TextBox.Text>
                 <Binding Path="CurrentPatient.PhoneNumber" Mode="TwoWay" UpdateSourceTrigger="LostFocus">
                     <Binding.Converter>
