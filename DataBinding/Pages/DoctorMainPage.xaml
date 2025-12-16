@@ -1,0 +1,50 @@
+<Page x:Class="DataBinding.Pages.DoctorMainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="DoctorMainPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Row="0">
+            <TextBlock Text="Главный экран доктора" Style="{StaticResource SectionHeaderTextBlock}"/>
+            <TextBlock Text="{Binding CurrentDoctor.Name}"/>
+            <TextBlock Text="{Binding CurrentDoctor.LastName}"/>
+            <Button Content="Выйти" Click="LogoutButton_Click"/>
+        </WrapPanel>
+        <StackPanel Grid.Row="1">
+            <StackPanel Style="{StaticResource ActionButtonsStackPanel}">
+                <Button Style="{StaticResource AddButton}" Content="Добавить пациента" Click="CreatePatientButton_Click"/>
+                <Button Content="Начать прием" Click="StartAppointmentButton_Click"/>
+                <Button Content="Изменить информацию" Click="EditInfoButton_Click"/>
+                <Button Style="{StaticResource DeleteButton}" Content="Удалить пациента" Click="DeleteButton_Click"/>
+            </StackPanel>
+            <TextBlock Text="Список пациентов:" Style="{StaticResource SubHeaderTextBlock}"/>
+            <ListView ItemsSource="{Binding Patients}" SelectedItem="{Binding SelectedPatient}" Style="{StaticResource ListView300}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Style="{StaticResource ListItemStackPanel}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding LastName}"/>
+                                <TextBlock Text=" "/>
+                                <TextBlock Text="{Binding Name}"/>
+                                <TextBlock Text=" "/>
+                                <TextBlock Text="{Binding MiddleName}"/>
+                            </StackPanel>
+                            <TextBlock Text="{Binding PhoneNumber, StringFormat={}{0:# (###) ### ## ##}}" 
+                                       Style="{StaticResource SmallTextBlock}"/>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Birthday}" Style="{StaticResource SmallTextBlock}"/>
+                                <TextBlock Text=" - " Style="{StaticResource SmallTextBlock}"/>
+                                <TextBlock Text="{Binding Age}" Style="{StaticResource SmallTextBlock}"/>
+                                <TextBlock Text=" лет, " Style="{StaticResource SmallTextBlock}"/>
+                                <TextBlock Text="{Binding AdultStatus}" Style="{StaticResource SmallTextBlock}"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,33 @@
+<Window x:Class="DataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataBinding"
+        mc:Ignorable="d"
+        Title="Окно приема пациентов"
+        Style="{StaticResource Wind}">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Настройки">
+                <MenuItem Header="Сменить тему" Click="ChangeTheme_Click"/>
+            </MenuItem>
+        </Menu>
+        <StatusBar DockPanel.Dock="Bottom" Background="{DynamicResource ButtonBackground}">
+            <StatusBarItem>
+                <TextBlock Text="Докторов:" Foreground="{DynamicResource AppForeground}"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock Text="{Binding DoctorsCount, Mode=OneWay}" Foreground="{DynamicResource AppForeground}"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock Text="Пациентов:" Foreground="{DynamicResource AppForeground}"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock Text="{Binding PatientsCount, Mode=OneWay}" Foreground="{DynamicResource AppForeground}"/>
+            </StatusBarItem>
+        </StatusBar>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+    </DockPanel>
+</Window>

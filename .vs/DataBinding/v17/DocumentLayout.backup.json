@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\editpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\editpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\doctormainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\doctormainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\createpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\createpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "DataBinding\\Pages\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\RegisterPage.xaml",
+              "RelativeToolTip": "DataBinding\\Pages\\RegisterPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T00:03:34.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "DataBinding\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "DataBinding\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T00:03:32.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditPatientPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\EditPatientPage.xaml",
+              "RelativeDocumentMoniker": "DataBinding\\Pages\\EditPatientPage.xaml",
+              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\EditPatientPage.xaml",
+              "RelativeToolTip": "DataBinding\\Pages\\EditPatientPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T00:03:30.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoctorMainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\DoctorMainPage.xaml",
+              "RelativeDocumentMoniker": "DataBinding\\Pages\\DoctorMainPage.xaml",
+              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\DoctorMainPage.xaml",
+              "RelativeToolTip": "DataBinding\\Pages\\DoctorMainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T00:03:27.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreatePatientPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\CreatePatientPage.xaml",
+              "RelativeDocumentMoniker": "DataBinding\\Pages\\CreatePatientPage.xaml",
+              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\CreatePatientPage.xaml",
+              "RelativeToolTip": "DataBinding\\Pages\\CreatePatientPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T00:03:24.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppointmentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\AppointmentPage.xaml",
+              "RelativeDocumentMoniker": "DataBinding\\Pages\\AppointmentPage.xaml",
+              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\AppointmentPage.xaml",
+              "RelativeToolTip": "DataBinding\\Pages\\AppointmentPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T00:03:18.884Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

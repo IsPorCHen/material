@@ -1,0 +1,117 @@
+<Page x:Class="DataBinding.Pages.CreatePatientPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:validators="clr-namespace:DataBinding.Validators"
+      xmlns:converters="clr-namespace:DataBinding.Converters"
+      Title="CreatePatientPage">
+
+    <Page.Resources>
+        <converters:PhoneNumberConverter x:Key="PhoneNumberConverter"/>
+    </Page.Resources>
+
+    <StackPanel Style="{StaticResource CenteredStackPanel}">
+        <TextBlock Text="Создание пациента" Style="{StaticResource PageTitleTextBlock}"/>
+
+        <TextBox x:Name="LastNameTextBox" 
+                 materialDesign:HintAssist.Hint="Фамилия *">
+            <TextBox.Text>
+                <Binding Path="CurrentPatient.LastName" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validators:RequiredRule ErrorMessage="Фамилия обязательна для заполнения"/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <ItemsControl ItemsSource="{Binding ElementName=LastNameTextBox, Path=(Validation.Errors)}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextBlock}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <TextBox x:Name="NameTextBox" 
+                 materialDesign:HintAssist.Hint="Имя *">
+            <TextBox.Text>
+                <Binding Path="CurrentPatient.Name" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validators:RequiredRule ErrorMessage="Имя обязательно для заполнения"/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <ItemsControl ItemsSource="{Binding ElementName=NameTextBox, Path=(Validation.Errors)}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextBlock}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <TextBox x:Name="MiddleNameTextBox" 
+                 materialDesign:HintAssist.Hint="Отчество *">
+            <TextBox.Text>
+                <Binding Path="CurrentPatient.MiddleName" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validators:RequiredRule ErrorMessage="Отчество обязательно для заполнения"/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <ItemsControl ItemsSource="{Binding ElementName=MiddleNameTextBox, Path=(Validation.Errors)}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextBlock}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <TextBox x:Name="BirthDateTextBox" 
+                 materialDesign:HintAssist.Hint="Дата рождения * (ДД.ММ.ГГГГ)">
+            <TextBox.Text>
+                <Binding Path="CurrentPatient.Birthday" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validators:RequiredRule ErrorMessage="Дата рождения обязательна"/>
+                        <validators:DateValidationRule ErrorMessage="Неверный формат даты. Используйте ДД.ММ.ГГГГ"/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <ItemsControl ItemsSource="{Binding ElementName=BirthDateTextBox, Path=(Validation.Errors)}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextBlock}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <TextBox x:Name="PhoneTextBox" 
+                 materialDesign:HintAssist.Hint="Контактный телефон">
+            <TextBox.Text>
+                <Binding Path="CurrentPatient.PhoneNumber" Mode="TwoWay" UpdateSourceTrigger="LostFocus">
+                    <Binding.Converter>
+                        <StaticResource ResourceKey="PhoneNumberConverter"/>
+                    </Binding.Converter>
+                    <Binding.ValidationRules>
+                        <validators:PhoneValidationRule ErrorMessage="Введите корректный номер телефона (10-11 цифр)"/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <ItemsControl ItemsSource="{Binding ElementName=PhoneTextBox, Path=(Validation.Errors)}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextBlock}"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <TextBlock Text="* - обязательные поля" Style="{StaticResource HintTextBlock}"/>
+
+        <WrapPanel Style="{StaticResource HorizontalWrapPanel}">
+            <Button Style="{StaticResource AddButton}" Content="Сохранить" Click="SaveButton_Click"/>
+            <Button Content="Назад" Click="BackButton_Click"/>
+        </WrapPanel>
+    </StackPanel>
+</Page>
