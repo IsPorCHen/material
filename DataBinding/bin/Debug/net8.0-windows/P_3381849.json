@@ -1,0 +1,21 @@
+﻿{
+  "LastName": "безбородов",
+  "Name": "николай",
+  "MiddleName": "фывафыв",
+  "Birthday": "21.01.2005",
+  "PhoneNumber": "71324645742",
+  "AppointmentStories": [
+    {
+      "Date": "16.12.2025",
+      "DoctorId": 68474,
+      "Diagnosis": "Лень",
+      "Recommendations": "не лениься"
+    },
+    {
+      "Date": "16.12.2025",
+      "DoctorId": 68474,
+      "Diagnosis": "фвыавыа",
+      "Recommendations": "фывафвыа"
+    }
+  ]
+}

@@ -322,11 +322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ipch\\Source\\Repos\\wpf_valid\\DataBinding\\DataBinding.csproj",
+      "projectUniqueName": "C:\\Users\\ipch\\Source\\Repos\\material\\DataBinding\\DataBinding.csproj",
       "projectName": "DataBinding",
-      "projectPath": "C:\\Users\\ipch\\Source\\Repos\\wpf_valid\\DataBinding\\DataBinding.csproj",
+      "projectPath": "C:\\Users\\ipch\\Source\\Repos\\material\\DataBinding\\DataBinding.csproj",
       "packagesPath": "C:\\Users\\ipch\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ipch\\Source\\Repos\\wpf_valid\\DataBinding\\obj\\",
+      "outputPath": "C:\\Users\\ipch\\Source\\Repos\\material\\DataBinding\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ipch\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -2,24 +2,37 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <SolidColorBrush x:Key="AppBackground" Color="#F5FAFB"/>
+
     <SolidColorBrush x:Key="PanelBackground" Color="#FFFFFF"/>
+
     <SolidColorBrush x:Key="HeaderForeground" Color="#2E3B4E"/>
+
     <SolidColorBrush x:Key="AppForeground" Color="#444B54"/>
+
     <SolidColorBrush x:Key="SecondaryForeground" Color="#6E7A89"/>
+
     <SolidColorBrush x:Key="PrimaryButtonBackground" Color="#33B8B1"/>
     <SolidColorBrush x:Key="PrimaryButtonHover" Color="#2A9E98"/>
     <SolidColorBrush x:Key="PrimaryButtonPressed" Color="#21847F"/>
+
     <SolidColorBrush x:Key="DangerButtonBackground" Color="#E65A4F"/>
     <SolidColorBrush x:Key="DangerButtonHover" Color="#D44A40"/>
     <SolidColorBrush x:Key="DangerButtonPressed" Color="#C23A31"/>
+
     <SolidColorBrush x:Key="TextBoxBackground" Color="#F0F6F8"/>
+
     <SolidColorBrush x:Key="TextBoxBorder" Color="#6E7A89"/>
+
     <SolidColorBrush x:Key="AccentColor" Color="#3A9AD9"/>
+
     <SolidColorBrush x:Key="ValidationErrorBackground" Color="#FFE8E8"/>
+
     <SolidColorBrush x:Key="ValidationErrorBorder" Color="#D93025"/>
+
     <SolidColorBrush x:Key="ValidationErrorForeground" Color="#D93025"/>
+
     <SolidColorBrush x:Key="ButtonForeground" Color="#FFFFFF"/>
     <SolidColorBrush x:Key="GroupBoxBorder" Color="#6E7A89"/>
     <SolidColorBrush x:Key="ListViewBorder" Color="#6E7A89"/>
-    
+
 </ResourceDictionary>

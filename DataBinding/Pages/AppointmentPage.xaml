@@ -5,85 +5,123 @@
       xmlns:validators="clr-namespace:DataBinding.Validators"
       Title="AppointmentPage">
 
-    <StackPanel Style="{StaticResource CenteredStackPanel}">
-        <TextBlock Text="Приём пациента" Style="{StaticResource PageTitleTextBlock}"/>
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="450"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
-        <StackPanel Orientation="Horizontal">
-            <TextBlock Text="Пациент: "/>
-            <TextBlock Text="{Binding CurrentPatient.LastName}"/>
-            <TextBlock Text=" "/>
-            <TextBlock Text="{Binding CurrentPatient.Name}"/>
-            <TextBlock Text=" "/>
-            <TextBlock Text="{Binding CurrentPatient.MiddleName}"/>
+        <StackPanel Grid.Column="0" Width="400" HorizontalAlignment="Left">
+            <TextBlock Text="Приём пациента" Style="{StaticResource PageTitleTextBlock}"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <TextBlock Text="Пациент: "/>
+                <TextBlock Text="{Binding CurrentPatient.LastName}"/>
+                <TextBlock Text=" "/>
+                <TextBlock Text="{Binding CurrentPatient.Name}"/>
+                <TextBlock Text=" "/>
+                <TextBlock Text="{Binding CurrentPatient.MiddleName}"/>
+            </StackPanel>
+
+            <TextBox x:Name="DateTextBox" 
+                     materialDesign:HintAssist.Hint="Дата приёма (ДД.ММ.ГГГГ)"
+                     materialDesign:TextFieldAssist.HasClearButton="False"
+                     Validation.ErrorTemplate="{x:Null}">
+                <TextBox.Text>
+                    <Binding Path="AppointmentDate" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:RequiredRule ErrorMessage="Дата приёма обязательна"/>
+                            <validators:DateValidationRule ErrorMessage="Неверный формат даты"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl ItemsSource="{Binding ElementName=DateTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextBlock}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <TextBox x:Name="DiagnosisTextBox" 
+                     materialDesign:HintAssist.Hint="Диагноз *"
+                     materialDesign:TextFieldAssist.HasClearButton="False"
+                     Validation.ErrorTemplate="{x:Null}">
+                <TextBox.Text>
+                    <Binding Path="DiagnosisText" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:RequiredRule ErrorMessage="Диагноз обязателен для заполнения"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl ItemsSource="{Binding ElementName=DiagnosisTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextBlock}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <TextBox x:Name="RecommendationsTextBox" 
+                     materialDesign:HintAssist.Hint="Рекомендации *"
+                     Style="{StaticResource MultilineTextBox}"
+                     materialDesign:TextFieldAssist.HasClearButton="False"
+                     Validation.ErrorTemplate="{x:Null}">
+                <TextBox.Text>
+                    <Binding Path="RecommendationsText" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:RequiredRule ErrorMessage="Рекомендации обязательны для заполнения"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+            <ItemsControl ItemsSource="{Binding ElementName=RecommendationsTextBox, Path=(Validation.Errors)}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextBlock}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+            <TextBlock Text="* - обязательные поля" Style="{StaticResource HintTextBlock}"/>
+
+            <WrapPanel Style="{StaticResource HorizontalWrapPanel}">
+                <Button Style="{StaticResource AddButton}" Content="Сохранить приём" Click="SaveAppointmentButton_Click"/>
+                <Button Content="Назад" Click="BackButton_Click"/>
+            </WrapPanel>
         </StackPanel>
 
-        <TextBox x:Name="DateTextBox" 
-                 materialDesign:HintAssist.Hint="Дата приёма (ДД.ММ.ГГГГ)"
-                 materialDesign:TextFieldAssist.HasClearButton="False"
-                 Validation.ErrorTemplate="{x:Null}">
-            <TextBox.Text>
-                <Binding Path="AppointmentDate" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                    <Binding.ValidationRules>
-                        <validators:RequiredRule ErrorMessage="Дата приёма обязательна"/>
-                        <validators:DateValidationRule ErrorMessage="Неверный формат даты"/>
-                    </Binding.ValidationRules>
-                </Binding>
-            </TextBox.Text>
-        </TextBox>
-        <ItemsControl ItemsSource="{Binding ElementName=DateTextBox, Path=(Validation.Errors)}">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextBlock}"/>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
+        <StackPanel Grid.Column="1" Margin="20,0,0,0">
+            <TextBlock Text="История приёмов" Style="{StaticResource SectionHeaderTextBlock}"/>
 
-        <TextBox x:Name="DiagnosisTextBox" 
-                 materialDesign:HintAssist.Hint="Диагноз *"
-                 materialDesign:TextFieldAssist.HasClearButton="False"
-                 Validation.ErrorTemplate="{x:Null}">
-            <TextBox.Text>
-                <Binding Path="DiagnosisText" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                    <Binding.ValidationRules>
-                        <validators:RequiredRule ErrorMessage="Диагноз обязателен для заполнения"/>
-                    </Binding.ValidationRules>
-                </Binding>
-            </TextBox.Text>
-        </TextBox>
-        <ItemsControl ItemsSource="{Binding ElementName=DiagnosisTextBox, Path=(Validation.Errors)}">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextBlock}"/>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
-
-        <TextBox x:Name="RecommendationsTextBox" 
-                 materialDesign:HintAssist.Hint="Рекомендации *"
-                 Style="{StaticResource MultilineTextBox}"
-                 materialDesign:TextFieldAssist.HasClearButton="False"
-                 Validation.ErrorTemplate="{x:Null}">
-            <TextBox.Text>
-                <Binding Path="RecommendationsText" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                    <Binding.ValidationRules>
-                        <validators:RequiredRule ErrorMessage="Рекомендации обязательны для заполнения"/>
-                    </Binding.ValidationRules>
-                </Binding>
-            </TextBox.Text>
-        </TextBox>
-        <ItemsControl ItemsSource="{Binding ElementName=RecommendationsTextBox, Path=(Validation.Errors)}">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <TextBlock Text="{Binding ErrorContent}" Style="{StaticResource ErrorTextBlock}"/>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
-
-        <TextBlock Text="* - обязательные поля" Style="{StaticResource HintTextBlock}"/>
-
-        <WrapPanel Style="{StaticResource HorizontalWrapPanel}">
-            <Button Style="{StaticResource AddButton}" Content="Сохранить приём" Click="SaveAppointmentButton_Click"/>
-            <Button Content="Назад" Click="BackButton_Click"/>
-        </WrapPanel>
-    </StackPanel>
+            <ListView ItemsSource="{Binding CurrentPatient.AppointmentStories}" 
+                      Style="{StaticResource ListView300}"
+                      ScrollViewer.VerticalScrollBarVisibility="Auto">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Style="{StaticResource ListItemStackPanel}">
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                <TextBlock Text="Дата: " FontWeight="Bold"/>
+                                <TextBlock Text="{Binding Date}"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                <TextBlock Text="Диагноз: " FontWeight="Bold"/>
+                                <TextBlock Text="{Binding Diagnosis}" TextWrapping="Wrap"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                <TextBlock Text="Рекомендации: " FontWeight="Bold"/>
+                                <TextBlock Text="{Binding Recommendations}" TextWrapping="Wrap"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="ID врача: " FontWeight="Bold"/>
+                                <TextBlock Text="{Binding DoctorId}"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </Grid>
 </Page>

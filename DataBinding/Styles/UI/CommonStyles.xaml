@@ -40,7 +40,7 @@
         <Setter Property="Foreground" Value="{DynamicResource ValidationErrorForeground}"/>
         <Setter Property="FontSize" Value="12"/>
         <Setter Property="TextWrapping" Value="Wrap"/>
-        <Setter Property="Margin" Value="0,2,0,5"/>
+        <Setter Property="Margin" Value="0,0,0,8"/>
     </Style>
 
     <Style x:Key="HintTextBlock" TargetType="TextBlock">
@@ -132,6 +132,7 @@
 
     <Style TargetType="Window" x:Key="Wind">
         <Setter Property="Background" Value="{DynamicResource AppBackground}"/>
+        <Setter Property="Height" Value="800"/>
     </Style>
 
 </ResourceDictionary>

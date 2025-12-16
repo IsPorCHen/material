@@ -1,65 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\",
+  "WorkspaceRootPath": "C:\\Users\\ipch\\source\\repos\\material\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\material\\databinding\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\validators\\phonevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\validators\\phonevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\validators\\requiredrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\validators\\requiredrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\styles\\ui\\commonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\styles\\ui\\commonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\styles\\ui\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\styles\\ui\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\styles\\ui\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\styles\\ui\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\styles\\colors\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\styles\\colors\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\styles\\colors\\defaultcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\styles\\colors\\defaultcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\styles\\colors\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\material\\databinding\\styles\\colors\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\styles\\colors\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\material\\databinding\\styles\\colors\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\styles\\colors\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\material\\databinding\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\editpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\editpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\material\\databinding\\styles\\ui\\commonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\styles\\ui\\commonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\doctormainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\doctormainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\material\\databinding\\styles\\ui\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\styles\\ui\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\wpf_valid\\databinding\\pages\\createpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\material\\databinding\\pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|c:\\users\\ipch\\source\\repos\\material\\databinding\\pages\\createpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7615C07C-5584-42C1-8D64-EB4E61AA5CEA}|DataBinding\\DataBinding.csproj|solutionrelative:databinding\\pages\\createpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -70,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,178 +50,100 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PhoneValidationRule.cs",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Validators\\PhoneValidationRule.cs",
-              "RelativeDocumentMoniker": "DataBinding\\Validators\\PhoneValidationRule.cs",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Validators\\PhoneValidationRule.cs",
-              "RelativeToolTip": "DataBinding\\Validators\\PhoneValidationRule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T00:27:12.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RequiredRule.cs",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Validators\\RequiredRule.cs",
-              "RelativeDocumentMoniker": "DataBinding\\Validators\\RequiredRule.cs",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Validators\\RequiredRule.cs",
-              "RelativeToolTip": "DataBinding\\Validators\\RequiredRule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T00:27:09.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DarkTheme.xaml",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Styles\\Colors\\DarkTheme.xaml",
-              "RelativeDocumentMoniker": "DataBinding\\Styles\\Colors\\DarkTheme.xaml",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Styles\\Colors\\DarkTheme.xaml",
-              "RelativeToolTip": "DataBinding\\Styles\\Colors\\DarkTheme.xaml",
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\material\\DataBinding\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "DataBinding\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\ipch\\source\\repos\\material\\DataBinding\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "DataBinding\\Pages\\LoginPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T00:14:11.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\RegisterPage.xaml",
-              "RelativeDocumentMoniker": "DataBinding\\Pages\\RegisterPage.xaml",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\RegisterPage.xaml",
-              "RelativeToolTip": "DataBinding\\Pages\\RegisterPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T00:03:34.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppointmentPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\AppointmentPage.xaml",
-              "RelativeDocumentMoniker": "DataBinding\\Pages\\AppointmentPage.xaml",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\AppointmentPage.xaml",
-              "RelativeToolTip": "DataBinding\\Pages\\AppointmentPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T00:03:18.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppointmentPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\AppointmentPage.xaml.cs",
-              "RelativeDocumentMoniker": "DataBinding\\Pages\\AppointmentPage.xaml.cs",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\AppointmentPage.xaml.cs",
-              "RelativeToolTip": "DataBinding\\Pages\\AppointmentPage.xaml.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAA2wIUAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T00:20:40.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DefaultColors.xaml",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Styles\\Colors\\DefaultColors.xaml",
-              "RelativeDocumentMoniker": "DataBinding\\Styles\\Colors\\DefaultColors.xaml",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Styles\\Colors\\DefaultColors.xaml",
-              "RelativeToolTip": "DataBinding\\Styles\\Colors\\DefaultColors.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T00:15:22.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LightTheme.xaml",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Styles\\Colors\\LightTheme.xaml",
-              "RelativeDocumentMoniker": "DataBinding\\Styles\\Colors\\LightTheme.xaml",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Styles\\Colors\\LightTheme.xaml",
-              "RelativeToolTip": "DataBinding\\Styles\\Colors\\LightTheme.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T00:15:25.03Z",
+              "WhenOpened": "2025-12-16T04:22:59.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Button.xaml",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Styles\\UI\\Button.xaml",
-              "RelativeDocumentMoniker": "DataBinding\\Styles\\UI\\Button.xaml",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Styles\\UI\\Button.xaml",
-              "RelativeToolTip": "DataBinding\\Styles\\UI\\Button.xaml",
+              "Title": "AppointmentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\material\\DataBinding\\Pages\\AppointmentPage.xaml.cs",
+              "RelativeDocumentMoniker": "DataBinding\\Pages\\AppointmentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ipch\\source\\repos\\material\\DataBinding\\Pages\\AppointmentPage.xaml.cs",
+              "RelativeToolTip": "DataBinding\\Pages\\AppointmentPage.xaml.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAADwv4EAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T04:21:50.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppointmentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\material\\DataBinding\\Pages\\AppointmentPage.xaml",
+              "RelativeDocumentMoniker": "DataBinding\\Pages\\AppointmentPage.xaml",
+              "ToolTip": "C:\\Users\\ipch\\source\\repos\\material\\DataBinding\\Pages\\AppointmentPage.xaml",
+              "RelativeToolTip": "DataBinding\\Pages\\AppointmentPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T00:16:49.057Z"
+              "WhenOpened": "2025-12-16T04:21:29.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DarkTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\material\\DataBinding\\Styles\\Colors\\DarkTheme.xaml",
+              "RelativeDocumentMoniker": "DataBinding\\Styles\\Colors\\DarkTheme.xaml",
+              "ToolTip": "C:\\Users\\ipch\\source\\repos\\material\\DataBinding\\Styles\\Colors\\DarkTheme.xaml",
+              "RelativeToolTip": "DataBinding\\Styles\\Colors\\DarkTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T04:15:35.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LightTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\Source\\Repos\\material\\DataBinding\\Styles\\Colors\\LightTheme.xaml",
+              "RelativeDocumentMoniker": "DataBinding\\Styles\\Colors\\LightTheme.xaml",
+              "ToolTip": "C:\\Users\\ipch\\Source\\Repos\\material\\DataBinding\\Styles\\Colors\\LightTheme.xaml",
+              "RelativeToolTip": "DataBinding\\Styles\\Colors\\LightTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T04:00:54.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ButtonStyles.xaml",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Styles\\UI\\ButtonStyles.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\Source\\Repos\\material\\DataBinding\\Styles\\UI\\ButtonStyles.xaml",
               "RelativeDocumentMoniker": "DataBinding\\Styles\\UI\\ButtonStyles.xaml",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Styles\\UI\\ButtonStyles.xaml",
+              "ToolTip": "C:\\Users\\ipch\\Source\\Repos\\material\\DataBinding\\Styles\\UI\\ButtonStyles.xaml",
               "RelativeToolTip": "DataBinding\\Styles\\UI\\ButtonStyles.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T00:16:54.784Z",
+              "WhenOpened": "2025-12-16T04:00:04.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "CommonStyles.xaml",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Styles\\UI\\CommonStyles.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\material\\DataBinding\\Styles\\UI\\CommonStyles.xaml",
               "RelativeDocumentMoniker": "DataBinding\\Styles\\UI\\CommonStyles.xaml",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Styles\\UI\\CommonStyles.xaml",
+              "ToolTip": "C:\\Users\\ipch\\source\\repos\\material\\DataBinding\\Styles\\UI\\CommonStyles.xaml",
               "RelativeToolTip": "DataBinding\\Styles\\UI\\CommonStyles.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T00:17:04.858Z",
+              "WhenOpened": "2025-12-16T03:57:30.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "DataBinding\\Pages\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\LoginPage.xaml",
-              "RelativeToolTip": "DataBinding\\Pages\\LoginPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T00:03:32.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EditPatientPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\EditPatientPage.xaml",
-              "RelativeDocumentMoniker": "DataBinding\\Pages\\EditPatientPage.xaml",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\EditPatientPage.xaml",
-              "RelativeToolTip": "DataBinding\\Pages\\EditPatientPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T00:03:30.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DoctorMainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\DoctorMainPage.xaml",
-              "RelativeDocumentMoniker": "DataBinding\\Pages\\DoctorMainPage.xaml",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\DoctorMainPage.xaml",
-              "RelativeToolTip": "DataBinding\\Pages\\DoctorMainPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T00:03:27.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 7,
               "Title": "CreatePatientPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\CreatePatientPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ipch\\source\\repos\\material\\DataBinding\\Pages\\CreatePatientPage.xaml",
               "RelativeDocumentMoniker": "DataBinding\\Pages\\CreatePatientPage.xaml",
-              "ToolTip": "C:\\Users\\ipch\\source\\repos\\wpf_valid\\DataBinding\\Pages\\CreatePatientPage.xaml",
+              "ToolTip": "C:\\Users\\ipch\\source\\repos\\material\\DataBinding\\Pages\\CreatePatientPage.xaml",
               "RelativeToolTip": "DataBinding\\Pages\\CreatePatientPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-16T00:03:24.836Z"
+              "WhenOpened": "2025-12-16T00:03:24.836Z",
+              "EditorCaption": ""
             }
           ]
         }
